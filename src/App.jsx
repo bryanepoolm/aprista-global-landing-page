@@ -13,10 +13,14 @@ function App() {
         backgroundColor: 'rgba(255, 255, 255, 0.95)', backdropFilter: 'blur(10px)',
         boxShadow: '0 2px 10px rgba(0,0,0,0.05)'
       }}>
-        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '80px' }}>
-          <div style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--primary)' }}>
-            PRISUA<span style={{ color: 'var(--accent)' }}>GLOBAL</span>
-          </div>
+        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '100px' }}>
+          <a href="#" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+            <img 
+              src="/images/logo_cropped.png" 
+              alt="Distribuidora Prisua Global" 
+              style={{ height: '90px', width: 'auto', objectFit: 'contain' }} 
+            />
+          </a>
           <nav style={{ display: 'flex', gap: '2rem' }}>
             <a href="#" style={{ color: 'var(--text)', textDecoration: 'none', fontWeight: 600 }}>Inicio</a>
             <a href="#nosotros" style={{ color: 'var(--text)', textDecoration: 'none', fontWeight: 600 }}>Nosotros</a>
@@ -35,8 +39,14 @@ function App() {
 
       <footer style={{ backgroundColor: 'var(--primary)', color: 'white', padding: '3rem 0', textAlign: 'center' }}>
         <div className="container">
-          <div style={{ fontSize: '1.5rem', fontWeight: 800, marginBottom: '1rem' }}>
-            PRISUA<span style={{ color: 'var(--accent)' }}>GLOBAL</span>
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5rem' }}>
+            <div style={{ backgroundColor: '#ffffff', padding: '15px 30px', borderRadius: '12px', display: 'inline-block' }}>
+              <img 
+                src="/images/logo_cropped.png" 
+                alt="Distribuidora Prisua Global" 
+                style={{ height: '80px', width: 'auto', objectFit: 'contain' }} 
+              />
+            </div>
           </div>
           <p style={{ opacity: 0.8, marginBottom: '2rem' }}>
             Especialistas en aceites y grasas vegetales sostenibles para tu industria.

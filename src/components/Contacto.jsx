@@ -54,7 +54,7 @@ export default function Contacto() {
             </div>
           </div>
           
-          <div style={{ flex: '1 1 400px' }} className="glass-panel" style={{ padding: '3rem', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow)', border: '1px solid #eee' }}>
+          <div className="glass-panel" style={{ flex: '1 1 400px', padding: '3rem', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow)', border: '1px solid #eee' }}>
             {status === 'success' ? (
               <div style={{ textAlign: 'center', padding: '2rem 0' }} className="animate-fade-in">
                 <div style={{ fontSize: '4rem', color: 'var(--secondary)', marginBottom: '1rem' }}>✓</div>
