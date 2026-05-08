@@ -46,11 +46,11 @@ export default function Productos() {
     <section id="productos" className="section" style={{ backgroundColor: 'var(--background)' }}>
       <div className="container">
         
-        {/* Presentaciones Aceite de Palma */}
+        {/* Presentaciones para Marca Propia */}
         <div style={{ marginBottom: '6rem' }}>
-          <h2 className="section-title">Aceite de Palma: Nuestras Presentaciones</h2>
+          <h2 className="section-title">Presentaciones para tu Marca</h2>
           <div style={{ width: '60px', height: '4px', backgroundColor: 'var(--accent)', margin: '0 auto 2rem' }}></div>
-          <p className="section-subtitle">Opciones certificadas para canales de retail y necesidades de mayoreo industrial.</p>
+          <p className="section-subtitle">Ofrecemos diversas opciones de envasado para que puedas comercializar nuestros productos con tu propia marca.</p>
           
           <div style={{
             display: 'grid',

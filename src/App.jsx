@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './components/Hero';
 import Nosotros from './components/Nosotros';
 import Productos from './components/Productos';
+import ProductosCatalogo from './components/ProductosCatalogo';
 import Contacto from './components/Contacto';
 import './index.css';
 
@@ -24,7 +25,8 @@ function App() {
           <nav style={{ display: 'flex', gap: '2rem' }}>
             <a href="#" style={{ color: 'var(--text)', textDecoration: 'none', fontWeight: 600 }}>Inicio</a>
             <a href="#nosotros" style={{ color: 'var(--text)', textDecoration: 'none', fontWeight: 600 }}>Nosotros</a>
-            <a href="#productos" style={{ color: 'var(--text)', textDecoration: 'none', fontWeight: 600 }}>Productos</a>
+            <a href="#catalogo" style={{ color: 'var(--text)', textDecoration: 'none', fontWeight: 600 }}>Catálogo</a>
+            <a href="#productos" style={{ color: 'var(--text)', textDecoration: 'none', fontWeight: 600 }}>Presentaciones</a>
             <a href="#contacto" style={{ color: 'var(--text)', textDecoration: 'none', fontWeight: 600 }}>Contacto</a>
           </nav>
         </div>
@@ -33,6 +35,7 @@ function App() {
       <main>
         <Hero />
         <Nosotros />
+        <ProductosCatalogo />
         <Productos />
         <Contacto />
       </main>
